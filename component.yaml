@@ -43,3 +43,9 @@ subcomponents:
   method: git
   path: chart
   branch: featuree
+- name: "4122"
+  type: helm
+  source: https://github.com/bnookala/hello-rings
+  method: git
+  path: chart
+  branch: "4122"

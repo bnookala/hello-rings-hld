@@ -1,4 +1,9 @@
 subcomponents:
+  "4122":
+    config:
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: "4122"
   hello-rings-featurea:
     config:
       image:
