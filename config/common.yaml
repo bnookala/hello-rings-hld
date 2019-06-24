@@ -31,6 +31,10 @@ subcomponents:
         tag: hello-rings-featuref-4093
   hello-rings-master:
     config:
+      author: ""
+      branchName: ""
+      buildId: "4270"
+      commitId: ""
       image:
         repository: hellorings.azurecr.io/hellorings
-        tag: hello-rings-master-4153
+        tag: hello-rings-master-4270
