@@ -43,3 +43,9 @@ subcomponents:
   method: git
   path: chart
   branch: master
+- name: hello-rings-revised-rings-spec
+  type: helm
+  source: https://github.com/bnookala/hello-rings
+  method: git
+  path: chart
+  branch: spec

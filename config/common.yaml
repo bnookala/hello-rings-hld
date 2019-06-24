@@ -34,3 +34,8 @@ subcomponents:
       image:
         repository: hellorings.azurecr.io/hellorings
         tag: hello-rings-master-4153
+  hello-rings-revised-rings-spec:
+    config:
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: hello-rings-revised-rings-spec-4255
