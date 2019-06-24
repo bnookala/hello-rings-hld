@@ -31,6 +31,10 @@ subcomponents:
         tag: hello-rings-featuref-4093
   hello-rings-master:
     config:
+      author: Samiya Akhtar
+      branchName: master
+      buildId: "4272"
+      commitId: da16e76542708372ceec0e31348a2aa5fad673fc
       image:
         repository: hellorings.azurecr.io/hellorings
-        tag: hello-rings-master-4153
+        tag: hello-rings-master-4272
