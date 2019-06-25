@@ -19,3 +19,13 @@ subcomponents:
       image:
         repository: hellorings.azurecr.io/hellorings
         tag: hello-rings-master-4312
+  hello-rings-merge:
+    config:
+      author: GitHub
+      branchName: merge
+      buildDate: "null"
+      buildId: "4330"
+      commitId: e94be957bd42eed6a9c5ab3775c1859cf42c81a5
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: hello-rings-merge-4330
