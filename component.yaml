@@ -13,4 +13,10 @@ subcomponents:
   method: git
   path: ring
   branch: featurex
+- name: hello-rings-featurey
+  type: component
+  source: https://github.com/bnookala/hello-rings
+  method: git
+  path: ring
+  branch: featurey
 
