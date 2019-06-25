@@ -2,44 +2,44 @@ name: hello-rings
 type: component
 subcomponents:
 - name: hello-rings-featurea
-  type: helm
+  type: component
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: chart
+  path: ring
   branch: featurea
 - name: hello-rings-featureb
-  type: helm
+  type: component
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: chart
+  path: ring
   branch: featureb
 - name: hello-rings-featurec
-  type: helm
+  type: component
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: chart
+  path: ring
   branch: featurec
 - name: hello-rings-featured
-  type: helm
+  type: component
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: chart
+  path: ring
   branch: featured
 - name: hello-rings-featuree
-  type: helm
+  type: component
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: chart
+  path: ring
   branch: featuree
 - name: hello-rings-featuref
-  type: helm
+  type: component
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: chart
+  path: ring
   branch: featuref
 - name: hello-rings-master
-  type: helm
+  type: component
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: chart
+  path: ring
   branch: master
