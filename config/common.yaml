@@ -3,12 +3,12 @@ subcomponents:
     config:
       author: GitHub
       branchName: featurea
-      buildDate: "2019-06-25T09:08:50.3790219Z"
-      buildId: "4322"
-      commitId: b11b2ee250b44d25cf5e86a8b35e858af6852a9f
+      buildDate: "2019-06-25T11:11:42.5911248Z"
+      buildId: "4350"
+      commitId: 70ae8d71312e5945e97d32a59639b26443208556
       image:
         repository: hellorings.azurecr.io/hellorings
-        tag: hello-rings-featurea-4322
+        tag: hello-rings-featurea-4350
   hello-rings-master:
     config:
       author: Samiya Akhtar
