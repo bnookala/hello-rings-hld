@@ -9,6 +9,16 @@ subcomponents:
       image:
         repository: hellorings.azurecr.io/hellorings
         tag: hello-rings-featurea-4322
+  hello-rings-featurem:
+    config:
+      author: GitHub
+      branchName: featurem
+      buildDate: "2019-06-25T14:32:15.3039956Z"
+      buildId: "4461"
+      commitId: 136ec2a307b1f83ebc44dd6b425d915e0971bc9d
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: hello-rings-featurem-4461
   hello-rings-master:
     config:
       author: Samiya Akhtar
