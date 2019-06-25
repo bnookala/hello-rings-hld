@@ -38,8 +38,8 @@ subcomponents:
   path: ring
   branch: featuref
 - name: hello-rings-master
-  type: component
+  type: helm
   source: https://github.com/bnookala/hello-rings
   method: git
-  path: ring
+  path: chart
   branch: master
