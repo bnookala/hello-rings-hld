@@ -11,11 +11,11 @@ subcomponents:
         tag: hello-rings-featurea-4322
   hello-rings-master:
     config:
-      author: Samiya Akhtar
+      author: GitHub
       branchName: master
-      buildDate: "2019-06-25T08:45:08.864258Z"
-      buildId: "4312"
-      commitId: b08fc564fa7aed09dbd46241b7a0d35e978ee0bb
+      buildDate: "2019-06-25T11:04:04.3285969Z"
+      buildId: "4339"
+      commitId: 8e9ce521af4877fa56a5b20c3822bd12cd3df445
       image:
         repository: hellorings.azurecr.io/hellorings
-        tag: hello-rings-master-4312
+        tag: hello-rings-master-4339
