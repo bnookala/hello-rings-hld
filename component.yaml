@@ -7,3 +7,10 @@ subcomponents:
   method: git
   path: ring
   branch: master
+- name: hello-rings-featurex
+  type: component
+  source: https://github.com/bnookala/hello-rings
+  method: git
+  path: ring
+  branch: featurex
+
