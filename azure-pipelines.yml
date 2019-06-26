@@ -23,6 +23,8 @@ steps:
     get_fab_version
     download_fab
     cd $HOME
+    mkdir clean
+    cd clean
     git clone https://github.com/bnookala/hello-rings-cluster.git
     if ! git checkout $BRANCH_NAME; then
       git checkout -b $BRANCH_NAME
