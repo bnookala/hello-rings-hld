@@ -30,8 +30,8 @@ steps:
     
     repo="hello-rings"
     service="$repo-$BRANCH_NAME"
-    echo "fab set --subcomponent $repo.$service buildId=5873945768346578365"
-    fab set --subcomponent $repo.$service buildId=5873945768346578365
+    echo "fab set --subcomponent $repo.$service buildId=$NUMBER"
+    fab set --subcomponent $repo.$service buildId=$NUMBER
     echo "git status"
     git status
     git add -A
@@ -46,3 +46,4 @@ steps:
     BRANCH_NAME: $(Build.SourceBranchName)
     ACCESS_TOKEN_SECRET: $(ACCESS_TOKEN)
     REPO: "https://github.com/bnookala/hello-rings-cluster"
+    NUMBER: $(Build.BuildNumber)
