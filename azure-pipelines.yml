@@ -28,7 +28,6 @@ steps:
       git checkout -b $BRANCH_NAME
     fi
     
-    # fab set --subcomponent hello-rings.hello-rings-master buildId=444534543634
     repo="hello-rings"
     service="$repo-$BRANCH_NAME"
     echo "fab set --subcomponent $repo.$service buildId=5873945768346578365"
@@ -37,7 +36,7 @@ steps:
     git status
     git add -A
     git config --global user.email "you@example.com"
-    git config --global user.name "ROBOT"
+    git config --global user.name "Azure DevOps Bot"
     git commit -m "Fab setting buildId"
     echo "git status"
     git status
