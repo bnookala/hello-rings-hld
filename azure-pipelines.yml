@@ -22,7 +22,7 @@ steps:
     init
     get_fab_version
     download_fab
-    git clone https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster
+    git clone https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster.git
     if ! git checkout $BRANCH_NAME; then
       git checkout -b $BRANCH_NAME
     fi
