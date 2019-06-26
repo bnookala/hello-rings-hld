@@ -27,6 +27,8 @@ steps:
     cd hello-rings-cluster
     fab set --subcomponent hello-rings buildId=44444
     git add -A
+    git config --global user.email "you@example.com"
+    git config --global user.name "ROBOT"
     git commit -m "Fab setting buildId"
     git push https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster origin $BRANCH_NAME
   displayName: Fab set version
