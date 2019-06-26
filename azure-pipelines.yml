@@ -19,6 +19,7 @@ steps:
 
 - script: |
     . build.sh --source-only
+    init
     get_fab_version
     download_fab
     echo "ls"
