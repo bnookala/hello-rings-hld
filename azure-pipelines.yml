@@ -18,7 +18,7 @@ steps:
     BEDROCK_BUILD_SCRIPT: https://raw.githubusercontent.com/Microsoft/bedrock/master/gitops/azure-devops/build.sh
 
 - bash: |
-    ./build.sh --source-only
+    . build.sh --source-only
     download_fab
     git clone https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster
     if ! git checkout $BRANCH_NAME; then
