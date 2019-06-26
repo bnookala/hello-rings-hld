@@ -17,7 +17,7 @@ steps:
   env:
     BEDROCK_BUILD_SCRIPT: https://raw.githubusercontent.com/Microsoft/bedrock/master/gitops/azure-devops/build.sh
 
-- bash: |
+- script: |
     . build.sh --source-only
     get_fab_version
     download_fab
