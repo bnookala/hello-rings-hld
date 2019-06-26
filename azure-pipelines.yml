@@ -25,7 +25,7 @@ steps:
     cd $HOME
     mkdir clean
     cd clean
-    git clone https://github.com/bnookala/hello-rings-cluster.git
+    git clone https://github.com/bnookala/hello-rings-cluster
     if ! git checkout $BRANCH_NAME; then
       git checkout -b $BRANCH_NAME
     fi
