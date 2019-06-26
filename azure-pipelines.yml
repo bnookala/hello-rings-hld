@@ -27,15 +27,18 @@ steps:
     if ! git checkout $BRANCH_NAME; then
       git checkout -b $BRANCH_NAME
     fi
-    pwd
-    echo "access token = $ACCESS_TOKEN"
-    # cd hello-rings-cluster
+    
+    
     fab set --subcomponent hello-rings buildId=44444
+    echo "git status"
+    git status
     git add -A
     git config --global user.email "you@example.com"
     git config --global user.name "ROBOT"
     git commit -m "Fab setting buildId"
-    git push https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster origin $BRANCH_NAME
+    echo "git status"
+    git status
+    git push https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster
   displayName: Fab set version
   env:
     BRANCH_NAME: $(Build.SourceBranchName)
