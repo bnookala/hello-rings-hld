@@ -19,10 +19,7 @@ steps:
 
 - bash: |
     . build.sh --source-only
-    verify_access_token
     init
-    helm init
-    get_os
     get_fab_version
     download_fab
     git_connect
