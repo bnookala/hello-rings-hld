@@ -21,6 +21,9 @@ steps:
     source ./build.sh
     download_fab
     git clone https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster
+    if ! git checkout $BRANCH_NAME; then
+      git checkout -b $BRANCH_NAME
+    fi
     cd hello-rings-cluster
     fab set --subcomponent hello-rings buildId=44444
     git add -A
