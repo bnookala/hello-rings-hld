@@ -1,4 +1,13 @@
 subcomponents:
+  hello-rings-a:
+    config:
+      branchName: a
+      buildDate: "2019-06-26T14:02:25.7712754Z"
+      buildId: "4558"
+      commitId: 52ba219d58ecd6340dda2008debcb7095da58ffe
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: hello-rings-a-4558
   hello-rings-featurea:
     config:
       author: GitHub
