@@ -21,8 +21,15 @@ steps:
     . build.sh --source-only
     get_fab_version
     download_fab
+    echo "ls"
     ls
+    echo "ls fab/"
     ls fab/
+    echo "export PATH=$PATH:$HOME/fab"
+    echo "HOME=$HOME"
+    echo "PATH=$PATH"
+    echo "pwd"
+    pwd
     fab --help
     git clone https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster
     if ! git checkout $BRANCH_NAME; then
