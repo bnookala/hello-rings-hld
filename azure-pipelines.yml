@@ -22,10 +22,12 @@ steps:
     init
     get_fab_version
     download_fab
+    cd $HOME
     git clone https://github.com/bnookala/hello-rings-cluster.git
     if ! git checkout $BRANCH_NAME; then
       git checkout -b $BRANCH_NAME
     fi
+    pwd
     echo "access token = $ACCESS_TOKEN"
     cd hello-rings-cluster
     fab set --subcomponent hello-rings buildId=44444
