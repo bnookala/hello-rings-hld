@@ -46,4 +46,4 @@ steps:
     BRANCH_NAME: $(Build.SourceBranchName)
     ACCESS_TOKEN_SECRET: $(ACCESS_TOKEN)
     REPO: "https://github.com/bnookala/hello-rings-cluster"
-    NUMBER: $(Build.BuildNumber)
+    NUMBER: $(Build.BuildId)
