@@ -19,16 +19,14 @@ steps:
 
 - bash: |
     . build.sh --source-only
+    verify_access_token
     init
+    helm init
+    get_os
     get_fab_version
     download_fab
-    cd $HOME
-    mkdir clean
-    cd clean
-    echo "ls -al"
-    ls -al
-    echo "git clone https://github.com/bnookala/hello-rings-cluster"
-    git clone https://github.com/bnookala/hello-rings-cluster
+    git_connect
+    
     if ! git checkout $BRANCH_NAME; then
       git checkout -b $BRANCH_NAME
     fi
@@ -45,3 +43,4 @@ steps:
   env:
     BRANCH_NAME: $(Build.SourceBranchName)
     ACCESS_TOKEN: $(ACCESS_TOKEN)
+    REPO: "https://github.com/bnookala/hello-rings-cluster"
