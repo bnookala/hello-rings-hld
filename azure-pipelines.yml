@@ -26,6 +26,7 @@ steps:
     if ! git checkout $BRANCH_NAME; then
       git checkout -b $BRANCH_NAME
     fi
+    echo "access token = $ACCESS_TOKEN"
     cd hello-rings-cluster
     fab set --subcomponent hello-rings buildId=44444
     git add -A
@@ -36,4 +37,4 @@ steps:
   displayName: Fab set version
   env:
     BRANCH_NAME: $(Build.SourceBranchName)
-    ACCESS_TOKEN: $(ACCESS_TOKEN_SECRET)
+    ACCESS_TOKEN: $(ACCESS_TOKEN)
