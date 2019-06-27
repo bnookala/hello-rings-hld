@@ -38,3 +38,12 @@ subcomponents:
       image:
         repository: hellorings.azurecr.io/hellorings
         tag: hello-rings-master-4546
+  hello-rings-ydawgie:
+    config:
+      branchName: ydawgie
+      buildDate: "2019-06-27T11:53:26.5781574Z"
+      buildId: "4590"
+      commitId: 7c998ada452f1013e0a1f08acab81a6d35e730b2
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: hello-rings-ydawgie-4590
