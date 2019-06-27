@@ -1,6 +1,12 @@
 name: hello-rings
 type: component
 subcomponents:
+- name: hello-rings-featurey
+  type: component
+  source: https://github.com/bnookala/hello-rings
+  method: git
+  path: ring
+  branch: featurey
 - name: hello-rings-master
   type: component
   source: https://github.com/bnookala/hello-rings
