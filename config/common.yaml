@@ -1,0 +1,10 @@
+subcomponents:
+  hello-rings-featureydawgie:
+    config:
+      branchName: featureydawgie
+      buildDate: "2019-07-08T23:08:06.7896515Z"
+      buildId: "4777"
+      commitId: 7c998ada452f1013e0a1f08acab81a6d35e730b2
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: hello-rings-featureydawgie-4777
