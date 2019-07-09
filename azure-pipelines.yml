@@ -44,6 +44,5 @@ steps:
   displayName: Fab set version
   env:
     BRANCH_NAME: $(Build.SourceBranchName)
-    ACCESS_TOKEN_SECRET: $(ACCESS_TOKEN_SECRET)
     REPO: "https://github.com/bnookala/hello-rings-cluster"
     NUMBER: $(Build.BuildId)
