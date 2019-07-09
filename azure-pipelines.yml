@@ -34,6 +34,7 @@ steps:
     fab set --subcomponent $repo.$service buildId=$NUMBER
     echo "git status"
     git status
+    git pull
     git add -A
     git config --global user.email "you@example.com"
     git config --global user.name "Azure DevOps Bot"
