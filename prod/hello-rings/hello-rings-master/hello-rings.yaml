@@ -39,7 +39,7 @@ metadata:
   name: hello-rings-v1-master
   contact: bhargav@hellorings.com
   branchName: bar # Set by pipeline
-  buildId: 4858 # Set by pipeline
+  buildId: 4860 # Set by pipeline
   buildDate: 2.0190624e+07 # Set by pipeline
   commitId: 43defcs # Set by pipeline
 spec:
