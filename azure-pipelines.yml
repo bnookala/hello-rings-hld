@@ -40,10 +40,10 @@ steps:
     git commit -m "Fab setting buildId"
     echo "git status"
     git status
-    git push https://$ACCESS_TOKEN@github.com/bnookala/hello-rings-cluster
+    git push https://$ACCESS_TOKEN_SECRET@github.com/bnookala/hello-rings-cluster
   displayName: Fab set version
   env:
     BRANCH_NAME: $(Build.SourceBranchName)
-    ACCESS_TOKEN_SECRET: $(ACCESS_TOKEN)
+    ACCESS_TOKEN_SECRET: $(ACCESS_TOKEN_SECRET)
     REPO: "https://github.com/bnookala/hello-rings-cluster"
     NUMBER: $(Build.BuildId)
