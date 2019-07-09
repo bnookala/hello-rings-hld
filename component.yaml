@@ -13,3 +13,9 @@ subcomponents:
   method: git
   path: ring
   branch: master
+- name: hello-rings-ydawgie
+  type: component
+  source: https://github.com/bnookala/hello-rings
+  method: git
+  path: ring
+  branch: ydawgie
