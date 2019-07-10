@@ -1,4 +1,13 @@
 subcomponents:
+  hello-rings-featurex:
+    config:
+      branchName: featurex
+      buildDate: "2019-07-10T17:36:07.9104644Z"
+      buildId: "4945"
+      commitId: 7c998ada452f1013e0a1f08acab81a6d35e730b2
+      image:
+        repository: hellorings.azurecr.io/hellorings
+        tag: hello-rings-featurex-4945
   hello-rings-featureydawgie:
     config:
       branchName: featureydawgie
