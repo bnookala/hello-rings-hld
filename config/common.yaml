@@ -2,9 +2,9 @@ subcomponents:
   hello-rings-featureydawgie:
     config:
       branchName: featureydawgie
-      buildDate: "2019-07-09T21:39:56.4060031Z"
-      buildId: "4916"
+      buildDate: "2019-07-10T17:22:35.5548397Z"
+      buildId: "4942"
       commitId: 7c998ada452f1013e0a1f08acab81a6d35e730b2
       image:
         repository: hellorings.azurecr.io/hellorings
-        tag: hello-rings-featureydawgie-4916
+        tag: hello-rings-featureydawgie-4942
